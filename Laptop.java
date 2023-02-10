@@ -152,13 +152,13 @@ public class Laptop {
           if (choice == 1) {
               Price(laptop);
           }
-          if (choice == 2) {
+          else if (choice == 2) {
             SSD(laptop);
           }
-          if (choice == 3) {
+          else if (choice == 3) {
             Collor(laptop);
           }
-          if (choice == 4) {
+          else if (choice == 4) {
             OS(laptop);
           }
           else if (choice == 5) {
